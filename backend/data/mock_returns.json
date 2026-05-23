@@ -1,0 +1,45 @@
+{
+  "us_etf": {
+    "name": "US ETF Portfolio",
+    "expected_return": "7-9% annual",
+    "risk": "Moderate",
+    "pros": [
+      "Stable USD exposure",
+      "Diversified global equities",
+      "Lower currency volatility"
+    ],
+    "cons": [
+      "No INR appreciation exposure",
+      "Limited India growth participation"
+    ]
+  },
+
+  "indian_mutual_funds": {
+    "name": "Indian Mutual Funds",
+    "expected_return": "10-14% annual",
+    "risk": "High",
+    "pros": [
+      "Higher long-term growth potential",
+      "Exposure to Indian market growth",
+      "Good for long-term wealth creation"
+    ],
+    "cons": [
+      "Currency fluctuation risk",
+      "Higher market volatility"
+    ]
+  },
+
+  "hybrid": {
+    "name": "Hybrid Strategy",
+    "expected_return": "8-12% annual",
+    "risk": "Moderate",
+    "pros": [
+      "Diversified across USD and INR",
+      "Balanced risk",
+      "Reduced volatility"
+    ],
+    "cons": [
+      "Slightly more complex allocation"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "accounts": {
+    "nre": {
+      "description": "Non-Resident External account for foreign income.",
+      "taxation": "Tax-free in India",
+      "repatriation": "Fully repatriable"
+    },
+
+    "nro": {
+      "description": "Non-Resident Ordinary account for Indian income.",
+      "taxation": "Taxable in India",
+      "repatriation": "Limited repatriation"
+    }
+  },
+
+  "mutual_fund_taxation": {
+    "equity": {
+      "short_term": "20%",
+      "long_term": "12.5%"
+    },
+
+    "debt": {
+      "tax": "Based on income slab"
+    }
+  },
+
+  "risk_profiles": {
+
+    "conservative": {
+      "allocation": {
+        "US ETFs": "50%",
+        "Debt Funds": "30%",
+        "Indian Equity": "10%",
+        "Cash": "10%"
+      }
+    },
+
+    "moderate": {
+      "allocation": {
+        "US ETFs": "40%",
+        "Indian Equity": "30%",
+        "Debt Funds": "20%",
+        "Cash": "10%"
+      }
+    },
+
+    "aggressive": {
+      "allocation": {
+        "US ETFs": "30%",
+        "Indian Equity": "50%",
+        "International Growth": "10%",
+        "Cash": "10%"
+      }
+    }
+  },
+
+  "investment_notes": {
+    "currency_risk":
+      "INR can fluctuate against USD.",
+
+    "diversification":
+      "Diversification across geographies lowers concentration risk.",
+
+    "time_horizon":
+      "Longer horizons typically tolerate more equity exposure."
+  }
+}
